@@ -30,7 +30,6 @@ namespace Test_Ef_Relationship
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<DbNicEntity>();
         }
     }
 }
